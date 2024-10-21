@@ -162,7 +162,7 @@
                 "[+20]% Great Person generation [in all cities]"
             ],
                 "requires": ["Cultural Diplomacy"],
-            "row": 1,
+            "row": 3,
             "column": 3
         },
             {
@@ -477,7 +477,7 @@
         ]
     },
     {
-        "name": "Rationality",
+        "name": "Rationalism",
         "era": "Classical era",
         "uniques": [
             "[Great Scientist] is earned [20]% faster",
