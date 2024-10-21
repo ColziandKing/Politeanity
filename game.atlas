@@ -31,6 +31,13 @@ PolicyIcons/Legalism
   orig: 50, 50
   offset: 0, 0
   index: -1
+PolicyIcons/Their Finest Hour
+  rotate: false
+  xy: 1458, 1174
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 PolicyIcons/Cold War
   rotate: false
   xy: 1471, 1058
@@ -129,7 +136,7 @@ PolicyIcons/Spaceflight Pioneers
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Exploration
+PolicyIcons/Frontier
   rotate: false
   xy: 832, 570
   size: 50, 50
