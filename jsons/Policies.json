@@ -96,7 +96,7 @@
     },
     {
         "name": "Patronage",
-        "era": "Renaissance era",
+        "era": "Medieval era",
         "uniques": [
             "Resting point for Influence with City-States is increased by [20]",
             "Comment [Unlocks [Forbidden Palace]]"
@@ -183,7 +183,7 @@
             "[Great Merchant] is earned [33]% faster",
             "Comment [Unlocks [Big Ben]]"
         ],
-        "era": "Renaissance era",
+        "era": "Medieval era",
         "policies": [
             {
                 "name": "Silk Road",
@@ -278,7 +278,7 @@
             "Comment [Unlocks [The Louvre]]",
             "Comment [Unlocks [Conquistador]]"
         ],
-        "era": "Classical era",
+        "era": "Medieval era",
         "policies": [
             {
                 "name": "Naval Tradition",
@@ -351,7 +351,7 @@
                     "[+1 Gold, +1 Production, +1 Food] from every [Coast] <in tiles without [resource]> <in tiles without [Improvement]>",
                     "[+1 Gold, +1 Production, +1 Food] from every [Ocean]"
                 ],
-                "requires": ["Navigation School","Colonialism"],
+                "requires": ["Navigation School","Resettlements"],
                 "row": 3,
                 "column": 3
             },
@@ -368,7 +368,7 @@
     },
 	{
         "name": "Aesthetics",
-        "era": "Medieval era",
+        "era": "Classical era",
         "uniques": [
             "[Great Artist] is earned [25]% faster",
             "[Great Writer] is earned [25]% faster",
@@ -468,7 +468,7 @@
     },
     {
         "name": "Rationalism",
-        "era": "Classical era",
+        "era": "Renaissance era",
         "uniques": [
             "[Great Scientist] is earned [20]% faster",
             "Comment [Unlocks [Porcelain Tower]]"
@@ -632,7 +632,7 @@
 },
 {
     "name": "Recorded History",
-    "era": "Ancient era",
+    "era": "Classical era",
     "uniques": [
         "[+1 Culture] [in all cities]",
 	"Only available <after adopting [Piety]>", "Only available <after adopting [Rationalism]>", "Unlocks building the Angkor Wat"
