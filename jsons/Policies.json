@@ -161,7 +161,7 @@
             "uniques": [
                 "[+20]% Great Person generation [in all cities]"
             ],
-                "requires": ["Cultural Diplomacy""],
+                "requires": ["Cultural Diplomacy"],
             "row": 1,
             "column": 3
         },
