@@ -1,4 +1,522 @@
 [
+    {
+        "name": "Piety",
+        "era": "Ancient era",
+        "uniques": [
+            "[+100]% Production when constructing [Temple] buildings [in all cities]",
+            "[+100]% Production when constructing [Shrine] buildings [in all cities]",
+            "[+1 Culture, +1 Faith] [in capital]",
+            "Unlocks building the Hagia Sophia"
+        ],
+        "policies": [
+            {
+                "name": "Mandate Of Heaven",
+                "uniques": [
+                    "[+1 Happiness] from every [Temple]",
+                    "[+1 Faith] [in capital]",
+                    "[Faith] cost of purchasing items in cities [-20]%"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Organized Religion",
+                "uniques": [
+                    "[+1 Culture, +1 Faith] from every [Shrine]",
+                    "[+1 Culture, +1 Faith] from every [Temple]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Theocracy",
+                "uniques": [
+                    "[+33]% [Gold] from every [Grand Temple]",
+                    "[+1 Gold] from every [Temple]",
+                    "[+1 Gold] from every [Shrine]",
+                    "[+3 Gold] from every [Holy site]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Reformation",
+                "uniques": [
+                    "[-15]% Culture cost of natural border growth [in all cities]",
+                    "May choose [1] additional [Enhancer] beliefs when [founding] a religion",
+                    "Gain a free [Enhancer] belief <after founding a religion>"
+                ],
+                "requires": [
+                    "Organized Religion"
+                ],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Religious Tolerance",
+                "uniques": [
+                    "[+1 Culture, +1 Faith] [in all cities]",
+                    "[+25]% [Science] from every [Grand Temple]",
+                    "[+2 Science] from every [Temple]"
+                ],
+                "requires": ["Organized Religion"],
+                "row": 2,
+                "column": 5
+            },
+		{
+            "name": "Theology",
+            "uniques": [
+		    
+            ],
+		"requires": ["Mandate Of Heaven","Theocracy"],
+            "row": 2,
+            "column": 3
+        },
+		{
+				"name": "Promised Land",
+				"uniques": [
+					"[+100]% Strength for cities <with a garrison> <when defending>"
+				],
+                		"requires": ["Theology""Mandate Of Heaven","Theocracy"],
+				"row": 3,
+				"column": 3
+			},
+            {
+                "name": "Piety Complete",
+                "uniques": [
+                    "Free [Great Prophet] appears",
+                    "[+1 Food, +3 Culture] from every [Holy site]",
+                    "Provides a [Garden] in your first [4] cities for free",
+                    "May buy [Piety Complete Building] buildings for [1875] [Faith] [in capital] <(modified by game speed)> <hidden from users> <starting from the [Industrial era]>",
+                    "Comment [May buy [{non-[Great Scientist]} {Great Person}] units for [1875] [Faith] [in capital] [(modified by game speed)] [once] [starting from the [Industrial era]]]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Patronage",
+        "era": "Renaissance era",
+        "uniques": [
+            "Resting point for Influence with City-States is increased by [20]",
+            "Comment [Unlocks [Forbidden Palace]]"
+        ],
+        "policies": [
+            {
+                "name": "Consulates",
+                "uniques": [
+                    "Resting point for Influence with City-States is increased by [20]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Merchant Confederacy",
+                "uniques": [
+                    "[+2 Production, +2 Food] from every [Land Trade Route (Gold)]",
+                    "[+2 Production, +2 Food] from every [Sea Trade Route (Gold)]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+		{
+                		"name": "United Front",
+                		"uniques": [
+                    		"Militaristic City-States grant units [2] times as fast when you are at war with a common nation","[-100]% weight to this choice for AI decisions"
+                			],
+                			"row": 1,
+                			"column": 5
+            		},
+            {
+                "name": "Scholasticism",
+                "uniques": [
+                    "Allied City-States provide [Science] equal to [25]% of what they produce for themselves"
+                ],
+                "requires": ["Merchant Confederacy"],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Cultural Diplomacy",
+                "uniques": [
+                    "[+100]% resources gifted by City-States",
+                    "[+50]% Happiness from luxury resources gifted by City-States"
+                ],
+                "requires": ["Merchant Confederacy"],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Philanthropy",
+                "uniques": [
+                    "Gifts of Gold to City-States generate [25]% more Influence",
+                    "[-25]% City-State Influence degradation"
+                ],
+                "requires": ["Merchant Confederacy"],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Patronage Complete",
+                "uniques": [
+                    "[+50]% [Culture] from City-States",
+                    "[+50]% [Faith] from City-States",
+                    "[+50]% [Food] from City-States",
+                    "[+50]% [Happiness] from City-States",
+                    "Allied City-States will occasionally gift Great People"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Commerce",
+        "uniques": [
+            "[Great Merchant] is earned [33]% faster",
+            "Comment [Unlocks [Big Ben]]"
+        ],
+        "era": "Renaissance era",
+        "policies": [
+            {
+                "name": "Silk Road",
+                "uniques": [
+                    "[+50]% Production when constructing [Market] buildings [in all cities]",
+                    "[+50]% Production when constructing [Bank] buildings [in all cities]",
+                    "[+50]% Production when constructing [Stock Exchange] buildings [in all cities]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+		{
+                "name": "Economic Union",
+                "uniques": [
+                    "[+25]% [Gold] [in all cities]",
+                ],
+                "row": 1,
+                "column": 3
+            },
+		{
+				"name": "Mercenary Army",
+				"uniques": ["May buy [Landsknecht] units with [Gold] for [3] times their normal Production cost",
+						"May buy [Foreign Legion] units with [Gold] for [5] times their normal Production cost"],
+				"row": 1,
+				"column": 5
+			},
+            {
+                "name": "Entrepreneurship",
+                "uniques": [
+                    "[-25]% maintenance on road & railroads",
+                    "[-25]% maintenance cost for buildings [in all cities]",
+                    "Provides [2] [Trade Route]"
+                ],
+                "requires": ["Silk Road","Economic Union"],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Mercantilism",
+                "uniques": [
+                    /*"[+25]% Yield from every [Land Trade Route (Food)]",
+                    "[+25]% Yield from every [Land Trade Route (Production)]",
+                    "[+25]% Yield from every [Sea Trade Route (Food)]",
+                    "[+25]% Yield from every [Sea Trade Route (Production)]",*/
+                    "[Gold] cost of purchasing items in cities [-20]%",
+                    "[+2 Science] from every [Market]",
+                    "[+2 Science] from every [Bank]",
+                    "[+2 Science] from every [Stock Exchange]"
+                ],
+                "requires": ["Silk Road"],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Protectionism",
+                "uniques": [
+                    "[+1 Food, +4 Gold] from every [Customs house]",
+                    "[+4 Production, +4 Culture, +4 Happiness] from every [East India Company]"
+                ],
+                "requires": ["Economic Union","Silk Road"],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Commerce Complete",
+                "uniques": [
+                    "[2] free [Great Merchant] units appear",
+                    "[+1 Food] from every [Trading post]",
+                    "[+1 Food] from every [Caer]",
+                    "[+100]% Gold from Great Merchant trade missions",
+                    "May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+                ]
+            }
+        ]
+    },
+	
+    {
+        "name": "Exploration",
+        "uniques": [
+            "[+1] Movement <for [{Military} {Water}] units>",
+            "[+1] Sight <for [{Military} {Water}] units>",
+            "Comment [Unlocks [The Louvre]]",
+            "Comment [Unlocks [Conquistador]]"
+        ],
+        "era": "Classical era",
+        "policies": [
+            {
+                "name": "Naval Tradition",
+                "uniques": [
+                    "[+1 Happiness, +1 Culture] from every [Lighthouse]",
+                    "[+1 Happiness, +1 Culture] from every [Harbor]",
+                    "[+1 Happiness, +1 Culture] from every [Seaport]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Maritime Infrastructure",
+                "uniques": [
+                    "[+3 Production] [in all coastal cities]",
+                    "[+50]% Production when constructing [Lighthouse] buildings [in all cities]",
+                    "[+50]% Production when constructing [Harbor] buildings [in all cities]",
+                    "[+50]% Production when constructing [Seaport] buildings [in all cities]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Colonialism",
+                "uniques": [
+                    //"[+1] population [in all cities]",
+                    //"[+1 Happiness] [in all cities]",
+                    "Gain a free [Governor's Mansion] [in this city] <upon founding a city>",
+                    "Free [Worker] appears <upon founding a city>"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Navigation School",
+                "uniques": [
+                    "[+2 Science] [in all coastal cities]",
+                    "[+10]% Strength <for [Water] units>"
+                ],
+                "requires": ["Maritime Infrastructure","Naval Tradition"],
+                "row": 2,
+                "column": 3
+            },
+		{
+                "name": "Resettlements",
+                "uniques": [
+                    "[+4] population [in this city] <upon founding a city>",
+                    "Gain a free [Workshop] [in this city] <upon founding a city>",
+                    "Gain a free [Monument] [in this city] <upon founding a city>",
+                    "Gain a free [Granary] [in this city] <upon founding a city>",
+                    "Gain a free [Library] [in this city] <upon founding a city>",
+                    "Gain a free [Aqueduct] [in this city] <upon founding a city>"
+                ],
+		"requires": ["Colonialism"],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Treasure Fleets",
+                "uniques": [
+                    "[+1 Gold, +1 Production, +1 Food] from every [Coast] <in tiles without [resource]> <in tiles without [Improvement]>",
+                    "[+1 Gold, +1 Production, +1 Food] from every [Ocean]"
+                ],
+                "requires": ["Navigation School","Colonialism"],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Exploration Complete",
+                "uniques": [
+                    "[Great Admiral] is earned [100]% faster",
+                    "Free [Great Admiral] appears",
+                    "[+1] Happiness from each type of luxury resource",
+                    "May buy [Great Admiral] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+                ]
+            }
+        ]
+    },
+	{
+        "name": "Aesthetics",
+        "era": "Medieval era",
+        "uniques": [
+            "[Great Artist] is earned [25]% faster",
+            "[Great Writer] is earned [25]% faster",
+            "[Great Musician] is earned [25]% faster",
+            "Comment [Unlocks [Uffizi]]"
+        ],
+        "policies": [
+            {
+                "name": "Free Mind",
+                "uniques": [
+                    "[Great Artist] is earned [33]% faster",
+                    "[Great Writer] is earned [33]% faster",
+                    "[Great Musician] is earned [33]% faster",
+                    "[+20]% [Gold] <in cities with a [Zoo]>",
+                    "[+20]% [Gold] <in cities with a [Museum]>",
+                    "[+20]% [Gold] <in cities with a [Broadcast Tower]>"
+                ],
+                "row": 1,
+                "column": 1
+            },
+		{
+                "name": "Cultural Centers",
+                "uniques": [
+                    "[+100]% Production when constructing [Amphitheater] buildings [in all cities]",
+                    "[+100]% Production when constructing [Opera House] buildings [in all cities]",
+                    "[+100]% Production when constructing [Museum] buildings [in all cities]",
+                    "[+100]% Production when constructing [Broadcast Tower] buildings [in all cities]",
+                    "[+1 Happiness] from every [Writer Guild]",
+                    "[+1 Happiness] from every [Artist Guild]",
+                    "[+1 Happiness] from every [Musician Guild]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Cultural Exchange",
+                "uniques": [
+                    "Free [Great Writer] appears",
+                    "[+1 Culture] from every [Great Improvement]",
+                    "[+1 Culture] from every [Trading post]",
+                    "[+1 Culture] from every [Brazilwood Camp]",
+                    "[+1 Culture] from every [Caer]",
+                    "[+1 Culture] from every [Moai]",
+                    "[+1 Culture] from every [Chateau]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Artistic Genius",
+                "uniques": [
+                    "Free [Great Artist] appears",
+                    "[+1 Science] from every [Museum]",
+                    "[+1 Science] from every [Amphitheater]",
+                    "[+1 Science] from every [Opera House]",
+                    "[+1 Science] from every [Broadcast Tower]",
+                    "[+3 Science] from every [Great Work]",
+                    "[+2 Science] from every [Landmark]"
+                ],
+                "requires": ["Free Mind","Cultural Centers"],
+                "row": 2,
+                "column": 3
+            },
+		{
+                "name": "Fine Arts",
+                "uniques": [
+                    "Gain a free [Fine Art Specialist] [in all cities]"
+                ],
+                "requires": ["Artistic Genius","Cultural Exchange"],
+                "row": 3,
+                "column": 1
+            },
+            {
+                "name": "Flourishing of the Arts",
+                "uniques": [
+                    "[+1 Culture] from every [Great Work]",
+                    "[+1 Culture] from every [World Wonder]",
+                    "Empire enters golden age"
+                ],
+                "requires": ["Artistic Genius","Cultural Exchange"],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Aesthetics Complete",
+                "uniques": [
+                    "[+100]% Production when constructing [Archaeologist] units [in all cities]",
+                    "[+1 Culture] from every [Great Work]",
+                    //need implement "Shows Hidden Antiquity Sites"
+                    "Free Social Policy",
+                    "May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+                    "May buy [Great Writer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+                    "May buy [Great Musician] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Rationalism",
+        "era": "Classical era",
+        "uniques": [
+            "[Great Scientist] is earned [20]% faster",
+            "Comment [Unlocks [Porcelain Tower]]"
+        ],
+        "policies": [
+		{
+                "name": "Sovereignty",
+                "uniques": [
+                    "[+1 Gold] from every [Library]",
+                    "[+1 Gold] from every [University]",
+                    "[+1 Gold] from every [Observatory]",
+                    "[+1 Gold] from every [Research Lab]",
+                    "[+1 Gold] from every [Public School]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Free Thought",
+                "uniques": [
+                    "[+1 Science] from every [Trading post]",
+                    "[+1 Science] from every [Chateau]",
+                    "[+1 Science] from every [Caer]",
+                    "[+1 Science] from every [Brazilwood Camp]",
+                    "[+4 Science] from every [Customs house]",
+                    "[+4 Science] from every [Academy]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Humanity",
+                "uniques": [
+                    "[+50]% Production when constructing [Library] buildings [in all cities]",
+                    "[+50]% Production when constructing [University] buildings [in all cities]",
+                    "[+50]% Production when constructing [Observatory] buildings [in all cities]",
+                    "[+50]% Production when constructing [Public School] buildings [in all cities]",
+                    "[+50]% Production when constructing [Research Lab] buildings [in all cities]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Scientific Revolution",
+                "uniques": [
+                    "Free [Great Scientist] appears"
+                ],
+                "requires": ["Free Thought","Sovereignty"],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Secularity",
+                "uniques": [
+                    "[+2 Science] from every specialist [in all cities]"
+                ],
+		    "requires": ["Humanity"],
+                "row": 2,
+                "column": 5
+            },
+		{
+				"name": "Christianity",
+				"uniques": ["[+2 Production, +2 Food, +2 Gold, +2 Faith, +2 Culture, +2 Science, +2 Happiness] per [5] population [in all cities]",
+					"[Faith] cost of purchasing [Missionary] units [-20]%","[2] free [Missionary] units appear"],
+				"requires": ["Sovereignty","Secularity"],
+				"row": 3,
+				"column": 3
+			},
+
+            {
+                "name": "Rationalism Complete",
+                "uniques": [
+                    "[10]% [Science] <while the empire is happy>","[-10]% unhappiness from the number of cities"
+                ]
+            }
+        ]
+    },
   {
         "name": "World",
         "era": "Ancient era",
