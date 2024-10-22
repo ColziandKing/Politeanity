@@ -560,7 +560,7 @@
         "name": "World",
         "era": "Ancient era",
         "uniques": [
-            "[+1 Culture] [in all cities]",
+            "[+1 Culture] [in all cities]","Free Social Policy",
 		"Only available <after adopting [Piety]>", "Only available <after adopting [Rationalism]>", "Unlocks building the Angkor Wat"
         ],
         "policies": [
@@ -634,8 +634,7 @@
     "name": "Recorded History",
     "era": "Classical era",
     "uniques": [
-        "[+1 Culture] [in all cities]",
-	"Only available <after adopting [Piety]>", "Only available <after adopting [Rationalism]>", "Unlocks building the Angkor Wat"
+        "[+1 Culture] [in all cities]", "Free Social Policy", "Unlocks building the The Great Library"
     ],
     "policies": [
         {
