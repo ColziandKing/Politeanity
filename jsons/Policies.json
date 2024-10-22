@@ -6,7 +6,7 @@
             "[+100]% Production when constructing [Temple] buildings [in all cities]",
             "[+100]% Production when constructing [Shrine] buildings [in all cities]",
             "[+1 Culture, +1 Faith] [in capital]",
-            "Unlocks building the Hagia Sophia"
+            "Comment [Unlocks [Hagia Sophia]]"
         ],
         "policies": [
             {
