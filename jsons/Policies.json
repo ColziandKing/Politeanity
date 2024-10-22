@@ -480,7 +480,7 @@
                 "uniques": [
                     "[-25]% maintenance on road & railroads",
                     "[-25]% maintenance cost for buildings [in all cities]",
-                    "Provides [2] [Trade Route]"
+                    "Provides [2] [Porcelain]"
                 ],
                 "requires": ["Silk Road","Economic Union"],
                 "row": 2,
@@ -506,7 +506,7 @@
                 "name": "Protectionism",
                 "uniques": [
                     "[+1 Food, +4 Gold] from every [Customs house]",
-                    "[+4 Production, +4 Culture, +4 Happiness] from every [East India Company]"
+                    "[+4 Production, +4 Culture, +4 Happiness] from every [Market]"
                 ],
                 "requires": ["Economic Union","Silk Road"],
                 "row": 2,
@@ -527,7 +527,7 @@
                 "uniques": [
                     "[2] free [Great Merchant] units appear",
                     "[+1 Food] from every [Trading post]",
-                    "[+1 Food] from every [Caer]",
+                    "[+1 Food] from every [Market]",
                     "[+100]% Gold from Great Merchant trade missions",
                     "May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
@@ -571,7 +571,7 @@
                 "uniques": [
                     //"[+1] population [in all cities]",
                     //"[+1 Happiness] [in all cities]",
-                    "Gain a free [Governor's Mansion] [in this city] <upon founding a city>",
+                    "Gain a free [Workshop] [in this city] <upon founding a city>",
                     "Free [Worker] appears <upon founding a city>"
                 ],
                 "row": 1,
@@ -623,10 +623,10 @@
             {
                 "name": "Exploration Complete",
                 "uniques": [
-                    "[Great Admiral] is earned [100]% faster",
-                    "Free [Great Admiral] appears",
+                    "[Great General] is earned [100]% faster",
+                    "Free [Great General] appears",
                     "[+1] Happiness from each type of luxury resource",
-                    "May buy [Great Admiral] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+                    "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
             }
         ]
@@ -636,8 +636,6 @@
         "era": "Classical era",
         "uniques": [
             "[Great Artist] is earned [25]% faster",
-            "[Great Writer] is earned [25]% faster",
-            "[Great Musician] is earned [25]% faster",
             "Comment [Unlocks [Uffizi]]"
         ],
         "policies": [
@@ -645,9 +643,7 @@
                 "name": "Free Mind",
                 "uniques": [
                     "[Great Artist] is earned [33]% faster",
-                    "[Great Writer] is earned [33]% faster",
-                    "[Great Musician] is earned [33]% faster",
-                    "[+20]% [Gold] <in cities with a [Zoo]>",
+                    "[+20]% [Gold] <in cities with a [Theatre]>",
                     "[+20]% [Gold] <in cities with a [Museum]>",
                     "[+20]% [Gold] <in cities with a [Broadcast Tower]>"
                 ],
@@ -661,9 +657,9 @@
                     "[+100]% Production when constructing [Opera House] buildings [in all cities]",
                     "[+100]% Production when constructing [Museum] buildings [in all cities]",
                     "[+100]% Production when constructing [Broadcast Tower] buildings [in all cities]",
-                    "[+1 Happiness] from every [Writer Guild]",
-                    "[+1 Happiness] from every [Artist Guild]",
-                    "[+1 Happiness] from every [Musician Guild]"
+                    "[+1 Happiness] from every [Amphitheater]",
+                    "[+1 Happiness] from every [Opera House]",
+                    "[+1 Happiness] from every [Theatre]"
                 ],
                 "row": 1,
                 "column": 3
@@ -671,11 +667,11 @@
             {
                 "name": "Cultural Exchange",
                 "uniques": [
-                    "Free [Great Writer] appears",
+                    "Free [Great Artist] appears",
                     "[+1 Culture] from every [Great Improvement]",
                     "[+1 Culture] from every [Trading post]",
                     "[+1 Culture] from every [Brazilwood Camp]",
-                    "[+1 Culture] from every [Caer]",
+                    "[+1 Culture] from every [Kasbah]",
                     "[+1 Culture] from every [Moai]",
                     "[+1 Culture] from every [Chateau]"
                 ],
@@ -690,7 +686,7 @@
                     "[+1 Science] from every [Amphitheater]",
                     "[+1 Science] from every [Opera House]",
                     "[+1 Science] from every [Broadcast Tower]",
-                    "[+3 Science] from every [Great Work]",
+                    "[+3 Science] from every [Theatre]",
                     "[+2 Science] from every [Landmark]"
                 ],
                 "requires": ["Free Mind","Cultural Centers"],
@@ -700,7 +696,7 @@
 		{
                 "name": "Fine Arts",
                 "uniques": [
-                    "Gain a free [Fine Art Specialist] [in all cities]"
+                    "Gain a free [Theatre] [in all cities]"
                 ],
                 "requires": ["Artistic Genius","Cultural Exchange"],
                 "row": 3,
@@ -709,7 +705,7 @@
             {
                 "name": "Flourishing of the Arts",
                 "uniques": [
-                    "[+1 Culture] from every [Great Work]",
+                    "[+1 Culture] from every [Theatre]",
                     "[+1 Culture] from every [World Wonder]",
                     "Empire enters golden age"
                 ],
@@ -720,13 +716,11 @@
             {
                 "name": "Aesthetics Complete",
                 "uniques": [
-                    "[+100]% Production when constructing [Archaeologist] units [in all cities]",
-                    "[+1 Culture] from every [Great Work]",
+                    "[+100]% Production when constructing [Worker] units [in all cities]",
+                    "[+1 Culture] from every [Theatre]",
                     //need implement "Shows Hidden Antiquity Sites"
                     "Free Social Policy",
-                    "May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
-                    "May buy [Great Writer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
-                    "May buy [Great Musician] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+                    "May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
                 ]
             }
         ]
@@ -756,7 +750,7 @@
                 "uniques": [
                     "[+1 Science] from every [Trading post]",
                     "[+1 Science] from every [Chateau]",
-                    "[+1 Science] from every [Caer]",
+                    "[+1 Science] from every [Kasbah]",
                     "[+1 Science] from every [Brazilwood Camp]",
                     "[+4 Science] from every [Customs house]",
                     "[+4 Science] from every [Academy]"
@@ -849,7 +843,7 @@
         {
             "name": "Free Religion",
             "uniques": [
-                "[+50]% Production when constructing [Settler] units [in capital]",
+                "[+50]% Production when constructing [Mechanized Infantry] units [in capital]",
                 "Free [Settler] appears"
             ],
             "requires": ["Mysticism"],
@@ -923,7 +917,7 @@
         {
             "name": "Natural History",
             "uniques": [
-                "[+50]% Production when constructing [Settler] units [in capital]",
+                "[+50]% Production when constructing [Scout] units [in capital]",
                 "Free [Settler] appears"
             ],
             "row": 1,
@@ -1064,10 +1058,10 @@
             {
                 "name": "Iron Curtain",
                 "uniques": [
-                    "[+11 Production] from every [Land Trade Route (Production)]",
-                    "[+11 Food] from every [Land Trade Route (Food)]",
-                    "[+11 Food] from every [Sea Trade Route (Food)]",
-                    "[+11 Production] from every [Sea Trade Route (Production)]"
+                    "[+11 Production] from every Trade Route",
+                    "[+11 Food] from every Trade Route",
+                    "[+11 Science] from every Trade Route",
+                    "[+11 Gold] from every Trade Route"
                 ],
                 "row": 3,
                 "column": 5
@@ -1121,7 +1115,7 @@
             {
                 "name": "Creative Expression",
                 "uniques": [
-                    "[+2 Culture] from every [Great Work]"
+                    "[+2 Culture] from every [Landmark]"
                 ],
                 "row": 1,
                 "column": 3
@@ -1182,11 +1176,11 @@
                 "uniques": [
                     "[+5 Science] from every [Academy]",
                     "[+5 Production] from every [Manufactory]",
-                    "[+5 Production] from every [Dry Dock]",
+                    "[+5 Production] from every [Citadel]",
                     "[+5 Faith] from every [Holy site]",
                     "[+5 Culture] from every [Landmark]",
                     "[+5 Gold] from every [Customs house]",
-                    "[+1 Culture, +1 Science, +1 Faith, +1 Production, +1 Food] from every [Sacred Grove]"
+                    "[+1 Culture, +1 Science, +1 Faith, +1 Production, +1 Food] from every [Great Improvement]"
                 ],
                 "row": 3,
                 "column": 1
@@ -1256,8 +1250,8 @@
                 "name": "Futurism",
                 "uniques": [
                     "Gain [250] [Culture] <(modified by game speed)> <upon gaining a [Great Artist] unit>",
-                    "Gain [250] [Culture] <(modified by game speed)> <upon gaining a [Great Writer] unit>",
-                    "Gain [250] [Culture] <(modified by game speed)> <upon gaining a [Great Musician] unit>"
+                    "Gain [250] [Culture] <(modified by game speed)> <upon gaining a [Great Engineer] unit>",
+                    "Gain [250] [Culture] <(modified by game speed)> <upon gaining a [Great General] unit>"
                 ],
                 "row": 1,
                 "column": 7
