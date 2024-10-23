@@ -73,6 +73,24 @@
                 "column": 5
             },
             {
+                "name": "Party Leadership",
+                "uniques": [
+                    "[+2 Food, +2 Gold, +1 Production, +1 Science] [in all cities]"
+                ],
+                "requires": ["Oligarchy","Socialist Realism"],
+                "row": 2,
+                "column": 7
+            },
+            {
+                "name": "Socialist Realism",
+                "uniques": [
+                    "[+2 Happiness] from every [Monument]",
+                    "[+100]% Production when constructing [Monument] buildings [in all cities]"
+                ],
+                "row": 1,
+                "column": 7
+            },
+            {
                 "name": "Tradition Complete",
                 "uniques": [
                     "[+15]% growth [in all cities]",
@@ -147,6 +165,25 @@
                 "requires": ["Citizenship"],
                 "row": 2,
                 "column": 5
+            },{
+                "name": "Volunteer Army",
+                "uniques": [
+                    "[3] free [Foreign Legion] units appear",
+                    "[3] units cost no maintenance",
+                    "[Gunpowder] units gain the [Morale] promotion",
+                    "All newly-trained [Gunpowder] units [in all cities] receive the [Morale] promotion"
+                ],
+                "row": 1,
+                "column": 7
+            },
+            {
+                "name": "Civil Society",
+                "uniques": [
+                    "[-50]% Food consumption by specialists [in all cities]"
+                ],
+                "requires": ["Republic"],
+                "row": 2,
+                "column": 7
             },
             {
                 "name": "Liberty Complete",
@@ -254,6 +291,25 @@
                 "row": 2,
                 "column": 5
             },
+            {
+                "name": "Militarism",
+                "uniques": [
+                    "[+1 Happiness] from every [Barracks]",
+                    "[+1 Happiness] from every [Armory]",
+                    "[+1 Happiness] from every [Military Academy]"
+                ],
+                "row": 1,
+                "column": 7
+            },
+            {
+		"name": "Fortified Borders",
+		"uniques": [
+				"[+1 Happiness] from every [Castle]","[+1 Happiness] from every [Arsenal]","[+1 Happiness] from every [Military Base]"
+			],
+                "requires": ["Militarism"],
+		"row": 2,
+		"column": 7
+	},
             {
                 "name": "Honor Complete",
                 "uniques": [
