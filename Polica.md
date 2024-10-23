@@ -1054,6 +1054,7 @@
                 "uniques": [
                     "[Gold] cost of purchasing [All] buildings [-50]%"
                 ],
+            		"requires": ["Young Pioneers","Workers' Faculties"],
                 "row": 2,
                 "column": 1
             },
@@ -1064,6 +1065,7 @@
                     "[+1 Happiness] from every [Public School]",
                     "[+1 Happiness] from every [Research Lab]"
                 ],
+            		"requires": ["Young Pioneers","Workers' Faculties","People's Army"],
                 "row": 2,
                 "column": 3
             },
@@ -1073,6 +1075,7 @@
                     "[+10]% [Culture] [in all cities] <while the empire is happy>",
                     "Empire enters golden age"
                 ],
+            		"requires": ["Double Agents","Workers' Faculties","People's Army"],
                 "row": 2,
                 "column": 5
             },
@@ -1082,6 +1085,7 @@
                     "[+10]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
                     "[+50]% XP gained from combat <for [non-[Air]] units>"
                 ],
+            		"requires": ["Double Agents","People's Army"],
                 "row": 2,
                 "column": 7
             },
@@ -1101,6 +1105,7 @@
                     "[+1 Production] from every [Mine]",
                     "[+1 Production] from every [Quarry]"
                 ],
+            		"requires": ["Skyscrapers","Academy of Sciences"],
                 "row": 3,
                 "column": 1
             },
@@ -1109,6 +1114,7 @@
                 "uniques": [
                     "[+10]% [Science] [in all cities]"
                 ],
+            		"requires": ["Skyscrapers","Academy of Sciences","Cultural Revolution"],
                 "row": 3,
                 "column": 3
             },
@@ -1120,6 +1126,7 @@
                     "[+11 Science] from each Trade Route",
                     "[+11 Happiness] from each Trade Route"
                 ],
+            		"requires": ["Patriotic War","Academy of Sciences","Cultural Revolution"],
                 "row": 3,
                 "column": 5
             },
@@ -1141,6 +1148,7 @@
                     "Free [Great Engineer] appears",
                     //need implement "Spaceflight Pioneers: May finish Spaceship parts with Great Engineers"
                 ],
+            		"requires": ["Patriotic War","Cultural Revolution"],
                 "row": 3,
                 "column": 7
             },
@@ -1196,6 +1204,7 @@
                     "[+1 Happiness] from every [Bank]",
                     "[+1 Happiness] from every [Stock Exchange]"
                 ],
+            		"requires": ["Avant Garde","Creative Expression","Covert Action"],
                 "row": 2,
                 "column": 3
             },
@@ -1205,6 +1214,7 @@
                     "[-50]% Unhappiness from [Specialists] [in all cities]",
                     "[+50]% Golden Age length"
                 ],
+            		"requires": ["Universal Healthcare","Creative Expression","Covert Action"],
                 "row": 2,
                 "column": 5
             },
@@ -1215,6 +1225,7 @@
                     "[+2 Production, +2 Science] from every [Workshop]",
                     "[+2 Production, +2 Science] from every [Factory]"
                 ],
+            		"requires": ["Universal Healthcare","Covert Action"],
                 "row": 2,
                 "column": 7
             },
@@ -1241,6 +1252,7 @@
                     "[+5 Gold] from every [Customs house]",
                     "[+1 Culture, +1 Science, +1 Faith, +1 Production, +1 Food] from every [Great Improvement]"
                 ],
+            		"requires": ["Arsenal of Democracy","Capitalism"],
                 "row": 3,
                 "column": 1
             },
@@ -1249,6 +1261,7 @@
                 "uniques": [
                     "[+20]% [Culture] <in cities with a [Broadcast Tower]>"
                 ],
+            		"requires": ["Arsenal of Democracy","Capitalism","Universal Suffrage"],
                 "row": 3,
                 "column": 3
             },
@@ -1257,6 +1270,7 @@
                 "uniques": [
                     "[+1 Production, +1 Gold] from every specialist [in all cities]"
                 ],
+            		"requires": ["Urbanization","Capitalism","Universal Suffrage"],
                 "row": 3,
                 "column": 5
             },
@@ -1269,6 +1283,7 @@
                     "[Fighter] units gain the [Dogfighting I] promotion",
                     "All newly-trained [Fighter] units [in all cities] receive the [Dogfighting I] promotion"
                 ],
+            		"requires": ["Avant Garde","Creative Expression"],
                 "row": 2,
                 "column": 1
             },
@@ -1277,6 +1292,7 @@
                 "uniques": [
                     "May buy [Spaceship part] units with [Gold] [in all cities]"
                 ],
+            		"requires": ["Urbanization","Universal Suffrage"],
                 "row": 3,
                 "column": 7
             },
@@ -1331,6 +1347,7 @@
                     "[+1] Movement <for [Great General] units>",
                     "[+1] Movement <for [Worker] units>"
                 ],
+            		"requires": ["Industrial Espionage","Fascism"],
                 "row": 2,
                 "column": 1
             },
@@ -1344,6 +1361,7 @@
                     "[+50]% Production when constructing [Police Station] buildings [in all cities]",
                     "[+50]% Production when constructing [Constabulary] buildings [in all cities]"
                 ],
+            		"requires": ["Industrial Espionage","Fascism","Iron Fist"],
                 "row": 2,
                 "column": 3
             },
@@ -1358,6 +1376,7 @@
                     "Double quantity of [Uranium] produced",
                     "[+5 Science, +5 Food] [in capital]"
                 ],
+            		"requires": ["Futurism","Fascism","Iron Fist"],
                 "row": 2,
                 "column": 5
             },
@@ -1367,6 +1386,7 @@
                     "[Gold] cost of purchasing [All] units [-25]%",
                     "[-25]% maintenance costs <for [All] units>"
                 ],
+            		"requires": ["Futurism","Iron Fist"],
                 "row": 2,
                 "column": 7
             },
@@ -1376,6 +1396,7 @@
                     "[+25]% Production when constructing [Military] units [in all cities]",
                     "New [Military] units start with [15] Experience [in all cities]"
                 ],
+            		"requires": ["Lightning Warfare","Police State"],
                 "row": 3,
                 "column": 1
             },
@@ -1384,6 +1405,7 @@
                 "uniques": [
                     "[+20]% [Culture] [in all cities]"
                 ],
+            		"requires": ["Lightning Warfare","Police State","Third Alternative"],
                 "row": 3,
                 "column": 3
             },
@@ -1392,6 +1414,7 @@
                 "uniques": [
                     "Resting point for Influence with City-States is increased by [25]"
                 ],
+            		"requires": ["Mobilization","Police State","Third Alternative"],
                 "row": 3,
                 "column": 5
             },
@@ -1412,6 +1435,7 @@
                 "uniques": [
                     "[+25]% Strength <for [All] units> <for [50] turns>"
                 ],
+            		"requires": ["Mobilization","Third Alternative"],
                 "row": 3,
                 "column": 7
             },
