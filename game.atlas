@@ -1,3 +1,16 @@
+game8.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+PolicyIcons/Five-Year Plan
+  rotate: false
+  xy: 1944, 786
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+
 game7.png
 size: 2048, 2048
 format: RGBA8888
