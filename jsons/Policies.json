@@ -876,14 +876,14 @@
         "name": "World",
         "era": "Industrial era",
         "uniques": [
-            "[+1 Culture] [in all cities]","Free Social Policy", "Only available <before adopting [Freedom]>",
-		"Only available <before adopting [Piety]>", "Only available <before adopting [Rationalism]>", "Comment [Unlocks [Angkor Wat]]"
+            "[-1 Culture] [in all cities]", "Only available <before adopting [Freedom]>",
+		"Only available <before adopting [Piety]>", "Only available <before adopting [Rationalism]>"
         ],
         "policies": [
             {
                 "name": "Populism",
                 "uniques": [
-                    "[-25]% construction time for [All] improvements",
+                    "[+25]% construction time for [All] improvements",
                     "Free [Worker] appears"
                 ],
                 "row": 1,
@@ -892,7 +892,7 @@
   {
             "name": "Mysticism",
             "uniques": [
-                "[+20]% Great Person generation [in all cities]"
+                "[-20]% Great Person generation [in all cities]"
             ],
             "row": 1,
             "column": 3
@@ -900,7 +900,7 @@
         {
             "name": "Free Religion",
             "uniques": [
-                "[+50]% Production when constructing [Mechanized Infantry] units [in capital]",
+                "[-50]% Production when constructing [Mechanized Infantry] units [in capital]",
                 "Free [Settler] appears"
             ],
             "requires": ["Mysticism"],
@@ -910,7 +910,7 @@
         {
             "name": "Dictatorship of the Proletariat",
             "uniques": [
-                "Each city founded increases culture cost of policies [33]% less than normal",
+                "Each city founded increases culture cost of policies [11]% less than normal",
                 "Empire enters golden age"
             ],
             "requires": ["Populism","Mysticism"],
@@ -920,8 +920,8 @@
 	{
             "name": "Planned Economy",
             "uniques": [
-                "[+1 Production] [in all cities]",
-                "[+5]% Production when constructing [All] buildings [in all cities]"
+                "[-1 Production] [in all cities]",
+                "[-5]% Production when constructing [All] buildings [in all cities]"
             ],
             "requires": ["Mysticism"],
             "row": 2,
@@ -930,9 +930,9 @@
         {
             "name": "Scorched Earth",
             "uniques": [
-                "[+15]% [Gold] [in all cities connected to capital]",
-                "[+1 Happiness] [in all cities connected to capital]",
-                "[-5]% Unhappiness from [Population] [in all non-occupied cities]"
+                "[-15]% [Gold] [in all cities connected to capital]",
+                "[-1 Happiness] [in all cities connected to capital]",
+                "[+5]% Unhappiness from [Population] [in all non-occupied cities]"
             ],
             "requires": ["Dictatorship of the Proletariat"],
             "row": 3,
