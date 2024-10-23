@@ -1,3 +1,8 @@
+
+                    //"[-20]% Gold cost of upgrading <for [Military] units>",
+                    /*"[+25]% Yield from every [Land Trade Route (Food)]",
+                    //"[+1] population [in all cities]",
+                    //"[+1 Happiness] [in all cities]",
 [
 	{
         "name": "Tradition",
