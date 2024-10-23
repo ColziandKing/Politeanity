@@ -876,7 +876,7 @@
         "era": "Ancient era",
         "uniques": [
             "[+1 Culture] [in all cities]","Free Social Policy",
-		"Only available <after adopting [Piety]>", "Only available <after adopting [Rationalism]>", "Comment [Unlocks [Angkor Wat]]"
+		"Only available <before adopting [Piety]>", "Only available <before adopting [Rationalism]>", "Comment [Unlocks [Angkor Wat]]"
         ],
         "policies": [
             {
