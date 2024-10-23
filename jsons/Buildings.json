@@ -5,7 +5,7 @@
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
-		"uniques": ["Free Social Policy","Destroyed when the city is captured"]
+		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
 		"name": "Stele",
@@ -16,7 +16,7 @@
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
-		"uniques": ["Free Social Policy","Destroyed when the city is captured"] //"Only available <when religion is enabled>"
+		"uniques": ["Destroyed when the city is captured"] //"Only available <when religion is enabled>"
 	},
 	{
 		"name": "Communia Polithea",
