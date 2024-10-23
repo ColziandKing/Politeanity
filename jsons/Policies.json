@@ -874,9 +874,9 @@
     },
   {
         "name": "World",
-        "era": "Ancient era",
+        "era": "Industrial era",
         "uniques": [
-            "[+1 Culture] [in all cities]","Free Social Policy",
+            "[+1 Culture] [in all cities]","Free Social Policy", "Only available <before adopting [Freedom]>",
 		"Only available <before adopting [Piety]>", "Only available <before adopting [Rationalism]>", "Comment [Unlocks [Angkor Wat]]"
         ],
         "policies": [
@@ -1159,6 +1159,7 @@
             "Comment [Unlocks [Statue of Liberty]]",
             "Only available <before adopting [Autocracy]>",
 		"Only available <after adopting [Liberty]>",
+		"Only available <before adopting [World]>",
             "Only available <before adopting [Order]>"
         ],
         "policies": [
