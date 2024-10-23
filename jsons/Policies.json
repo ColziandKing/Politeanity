@@ -105,7 +105,7 @@
         "era": "Classical era",
         "uniques": [
             "[+1 Culture] [in all cities]",
-		"Only available <after adopting [Rationalism]>", "Comment [Unlocks [Pyramids]]"
+		 "Comment [Unlocks [Pyramids]]"
         ],
         "policies": [
             {
@@ -1157,6 +1157,7 @@
             "Free Social Policy",
             "Comment [Unlocks [Statue of Liberty]]",
             "Only available <before adopting [Autocracy]>",
+		"Only available <after adopting [Liberty]>",
             "Only available <before adopting [Order]>"
         ],
         "policies": [
