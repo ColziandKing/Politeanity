@@ -1,4 +1,6 @@
 
+                    //"[+33]% Production when constructing [National Visitor's Center] wonders [in all cities]",
+                    //"[+15]% Production when constructing [Hotel] buildings [in all cities]",
                     //"[-20]% Gold cost of upgrading <for [Military] units>",
                     /*"[+25]% Yield from every [Land Trade Route (Food)]",
                     //"[+1] population [in all cities]",
