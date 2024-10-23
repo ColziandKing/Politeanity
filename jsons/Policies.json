@@ -378,8 +378,8 @@
             {
                 "name": "Merchant Confederacy",
                 "uniques": [
-                    "[+2 Production, +2 Food] from every Trade Route",
-                    "[+2 Gold, +2 Culture] from every Trade Route"
+                    "[+2 Production, +2 Food] from each Trade Route",
+                    "[+2 Gold, +2 Culture] from each Trade Route"
                 ],
                 "row": 1,
                 "column": 3
@@ -1058,10 +1058,10 @@
             {
                 "name": "Iron Curtain",
                 "uniques": [
-                    "[+11 Production] from every Trade Route",
-                    "[+11 Food] from every Trade Route",
-                    "[+11 Science] from every Trade Route",
-                    "[+11 Gold] from every Trade Route"
+                    "[+11 Production] from each Trade Route",
+                    "[+11 Food] from each Trade Route",
+                    "[+11 Science] from each Trade Route",
+                    "[+11 Happiness] from each Trade Route"
                 ],
                 "row": 3,
                 "column": 5
