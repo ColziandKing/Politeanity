@@ -326,6 +326,7 @@
         "uniques": [
             "[+100]% Production when constructing [Temple] buildings [in all cities]",
             "[+100]% Production when constructing [Shrine] buildings [in all cities]",
+		"Only available <before adopting [World]>",
             "[+1 Culture, +1 Faith] [in capital]",
             "Comment [Unlocks [Hagia Sophia]]"
         ],
@@ -785,6 +786,7 @@
         "era": "Renaissance era",
         "uniques": [
             "[Great Scientist] is earned [20]% faster",
+		"Only available <before adopting [World]>",
             "Comment [Unlocks [Porcelain Tower]]"
         ],
         "policies": [
