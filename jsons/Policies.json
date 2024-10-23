@@ -1016,7 +1016,7 @@
 },
     {
         "name": "Order",
-        "era": "Industrial era",
+        "era": "Medieval era",
         "uniques": [
             "Free Social Policy",
             "Comment [Unlocks [Kremlin]]",
@@ -1157,7 +1157,7 @@
     },
     {
         "name": "Freedom",
-        "era": "Modern era",
+        "era": "Renaissance era",
         "uniques": [
             "Free Social Policy",
             "Comment [Unlocks [Statue of Liberty]]",
@@ -1301,7 +1301,7 @@
     },
     {
         "name": "Autocracy",
-        "era": "Industrial era",
+        "era": "Medieval era",
         "uniques": [
             "Free Social Policy",
             "Comment [Unlocks [Prora]]",
