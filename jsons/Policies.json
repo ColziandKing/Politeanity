@@ -238,7 +238,6 @@
             {
                 "name": "Military Tradition",
                 "uniques": [
-                    //"[-20]% Gold cost of upgrading <for [Military] units>",
                     "[+50]% Production when constructing [Courthouse] buildings [in all cities]",
                     "[+3 Production, +3 Gold, +3 Food] from every [Courthouse]",
                     "[+1 Food, +2 Science, +2 Culture] from every [Citadel]"
@@ -546,7 +545,6 @@
             {
                 "name": "Mercantilism",
                 "uniques": [
-                    /*"[+25]% Yield from every [Land Trade Route (Food)]",
                     "[+25]% Yield from every [Land Trade Route (Production)]",
                     "[+25]% Yield from every [Sea Trade Route (Food)]",
                     "[+25]% Yield from every [Sea Trade Route (Production)]",*/
@@ -625,8 +623,6 @@
             {
                 "name": "Colonialism",
                 "uniques": [
-                    //"[+1] population [in all cities]",
-                    //"[+1 Happiness] [in all cities]",
                     "Gain a free [Workshop] [in this city] <upon founding a city>",
                     "Free [Worker] appears <upon founding a city>"
                 ],
