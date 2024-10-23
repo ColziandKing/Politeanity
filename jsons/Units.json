@@ -12,4 +12,20 @@
 		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>","Only available <after adopting [Mercenary Army]>","Earn [100]% of the damage done to [City] units as [Gold]"],
 		"attackSound": "shot"
 	},
+	{
+		"name": "Conquistador",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 20,
+		"cost": 135,
+		"requiredTech": "Chivalry",
+		"requiredResource": "Horses",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Only available <after adopting [Exploration]>","Founds a new city <on foreign continents>", "[+2] Sight"],
+		"promotions": ["[Conquistador] ability"],
+		"attackSound": "horse"
+		//Conquistador should have no penalty attacking cities
+		//Ability to found new cities can only be used on a foreign continent that does not contain the Spanish capital.
+	},
 ]
