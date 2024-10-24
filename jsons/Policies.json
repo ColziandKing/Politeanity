@@ -4,6 +4,9 @@
         "era": "Ancient era",
         "uniques": [
             "[+3 Culture] from every [Palace]","Free Social Policy",
+            "Only available <before adopting [Piety]>",
+            "Only available <before adopting [Liberty]>",
+            "Only available <before adopting [Honor]>",
             "[-25]% Culture cost of natural border growth [in all cities]",
             "Comment [Unlocks [Hanging Gardens]]"
         ],
@@ -102,9 +105,12 @@
     },
     {
         "name": "Liberty",
-        "era": "Classical era",
+        "era": "Ancient era",
         "uniques": [
             "[+1 Culture] [in all cities]","Free Social Policy",
+            "Only available <before adopting [Tradition]>",
+            "Only available <before adopting [Piety]>",
+            "Only available <before adopting [Honor]>",
 		 "Comment [Unlocks [The Pyramids]]"
         ],
         "policies": [
@@ -220,6 +226,9 @@
         "uniques": [
             "[+33]% Strength <vs [Barbarian] units>","Free Social Policy",
             "Earn [100]% of killed [Military] unit's [Strength] as [Culture]",
+            "Only available <before adopting [Piety]>",
+            "Only available <before adopting [Tradition]>",
+            "Only available <before adopting [Liberty]>",
             "Comment [Unlocks [Statue of Zeus]]"
         ],
         "policies": [
@@ -324,6 +333,9 @@
             "[+100]% Production when constructing [Temple] buildings [in all cities]",
             "[+100]% Production when constructing [Shrine] buildings [in all cities]",
 		"Only available <before adopting [World]>","Free Social Policy",
+            "Only available <before adopting [Tradition]>",
+            "Only available <before adopting [Liberty]>",
+            "Only available <before adopting [Honor]>",
             "[+1 Culture, +1 Faith] [in capital]",
             "Comment [Unlocks [Hagia Sophia]]"
         ],
@@ -415,7 +427,7 @@
     },
     {
         "name": "Patronage",
-        "era": "Classical era",
+        "era": "Renaissance era",
         "uniques": [
             "Resting point for Influence with City-States is increased by [20]","Free Social Policy",
             "Comment [Unlocks [Forbidden Palace]]"
@@ -502,7 +514,7 @@
             "[Great Merchant] is earned [33]% faster","Free Social Policy",
             "Comment [Unlocks [Big Ben]]"
         ],
-        "era": "Classical era",
+        "era": "Renaissance era",
         "policies": [
             {
                 "name": "Silk Road",
@@ -595,7 +607,7 @@
             "Comment [Unlocks [The Louvre]]",
             "Comment [Unlocks [Conquistador]]"
         ],
-        "era": "Classical era",
+        "era": "Renaissance era",
         "policies": [
             {
                 "name": "Naval Tradition",
@@ -683,7 +695,7 @@
     },
 	{
         "name": "Aesthetics",
-        "era": "Classical era",
+        "era": "Renaissance era",
         "uniques": [
             "[Great Artist] is earned [25]% faster","Free Social Policy",
             "Comment [Unlocks [Uffizi]]"
@@ -942,7 +954,7 @@
 },
 {
     "name": "Recorded History",
-    "era": "Classical era",
+    "era": "Renaissance era",
     "uniques": [
         "[+1 Culture] [in all cities]", "Free Social Policy", "Comment [Unlocks [The Great Library]]"
     ],
@@ -1014,7 +1026,7 @@
 },
     {
         "name": "Order",
-        "era": "Medieval era",
+        "era": "Classical era",
         "uniques": [
             "Free Social Policy",
             "Comment [Unlocks [Kremlin]]",
@@ -1155,7 +1167,7 @@
     },
     {
         "name": "Freedom",
-        "era": "Renaissance era",
+        "era": "Classical era",
         "uniques": [
             "Free Social Policy",
             "Comment [Unlocks [Statue of Liberty]]",
@@ -1299,7 +1311,7 @@
     },
     {
         "name": "Autocracy",
-        "era": "Medieval era",
+        "era": "Classical era",
         "uniques": [
             "Free Social Policy",
             "Comment [Unlocks [Prora]]",
