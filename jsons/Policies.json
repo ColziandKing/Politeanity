@@ -332,6 +332,7 @@
         "uniques": [
             "[+100]% Production when constructing [Temple] buildings [in all cities]",
             "[+100]% Production when constructing [Shrine] buildings [in all cities]",
+            "Only available <after adopting [Patronage]>",
 		"Only available <before adopting [World]>","Free Social Policy",
             "[+1 Culture, +1 Faith] [in capital]",
             "Comment [Unlocks [Hagia Sophia]]"
@@ -427,6 +428,7 @@
         "era": "Renaissance era",
         "uniques": [
             "Resting point for Influence with City-States is increased by [20]","Free Social Policy",
+            "Only available <after adopting [Piety]>",
             "Comment [Unlocks [Forbidden Palace]]"
         ],
         "policies": [
@@ -509,6 +511,7 @@
         "name": "Commerce",
         "uniques": [
             "[Great Merchant] is earned [33]% faster","Free Social Policy",
+            "Only available <after adopting [Piety]>",
             "Comment [Unlocks [Big Ben]]"
         ],
         "era": "Renaissance era",
@@ -600,6 +603,7 @@
         "name": "Exploration",
         "uniques": [
             "[+1] Movement <for [{Military} {Water}] units>","Free Social Policy",
+            "Only available <after adopting [Piety]>",
             "[+1] Sight <for [{Military} {Water}] units>",
             "Comment [Unlocks [The Louvre]]",
             "Comment [Unlocks [Conquistador]]"
@@ -695,6 +699,7 @@
         "era": "Renaissance era",
         "uniques": [
             "[Great Artist] is earned [25]% faster","Free Social Policy",
+            "Only available <after adopting [Piety]>",
             "Comment [Unlocks [Uffizi]]"
         ],
         "policies": [
@@ -789,6 +794,7 @@
         "era": "Classical era",
         "uniques": [
             "[Great Scientist] is earned [20]% faster","Free Social Policy",
+            "Only available <after adopting [Piety]>",
 		"Only available <before adopting [World]>",
             "Comment [Unlocks [Porcelain Tower]]"
         ],
@@ -953,7 +959,8 @@
     "name": "Recorded History",
     "era": "Renaissance era",
     "uniques": [
-        "[+1 Culture] [in all cities]", "Free Social Policy", "Comment [Unlocks [The Great Library]]"
+        "[+1 Culture] [in all cities]", "Free Social Policy", 
+            "Only available <after adopting [Piety]>","Comment [Unlocks [The Great Library]]"
     ],
     "policies": [
         {
