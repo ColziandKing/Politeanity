@@ -16,9 +16,9 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 106,
-		"requiredTech": "Globalization",
+		"requiredTech": "The Wheel",
 		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
-			"Requires at least [2] population"],
+			"Requires at least [3] population"],
 		"hurryCostModifier": 20
 	},
 	{
